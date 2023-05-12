@@ -1,0 +1,17 @@
+#dvd {
+    position: absolute;
+    width: 150px;
+    height: 90px;
+
+    filter: invert(1) sepia(100%) saturate(10000%)
+}
+
+body {
+    background-color: black;
+}
+
+#dvd img {
+    object-fit: fill;
+    width: 150px;
+    height: 90px;
+}
